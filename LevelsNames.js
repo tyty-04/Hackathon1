@@ -1,5 +1,15 @@
-//Set of 4: Ronaldo, Ozil, Smalling, Neymar
-//Correct player: Di Maria
+//*Template: 
+//correctPlayer: "",
+//player1: "",
+//player1Image: "",
+//player2: "",
+//player2Image:,
+//player3: "",
+//player3Image: "",
+//player4: "",
+//player4Image: "",
+//Add correct player to correctPlayers array at the same index the object is at in the playerSets array
+
 
 export const playerSets = [
   {
