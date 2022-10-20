@@ -7,8 +7,8 @@ levelTracker.appendChild(document.createTextNode("Level: " + level));
 let numGuess = 0;
 let guessTracker = document.getElementById("guesses");
 guessTracker.appendChild(document.createTextNode("Guesses: " + numGuess));
-let correctPlayer = correctPlayers[level-1];
-let playerSet = playerSets[level-1];
+let correctPlayer = correctPlayers[level - 1];
+let playerSet = playerSets[level - 1];
 let player1Img = document.getElementById("player1Image");
 let player2Img = document.getElementById("player2Image");
 let player3Img = document.getElementById("player3Image");
@@ -36,7 +36,7 @@ function checkGuess(event) {
   event.preventDefault();
   let guess = form["nameGuess"].value;
   if (guess.toLowerCase() == correctPlayer.toLowerCase()) {
-    toastr.success("Success! Next level.")
+    toastr.success("Success! Next level.");
     form.reset();
     nextLevel();
     return;
@@ -54,7 +54,7 @@ function checkGuess(event) {
         skip = prompt("Please input a valid value. (Y or N)");
       }
       if (skip == "y") {
-        toastr.info("The correct answer was: " + correctPlayer)
+        toastr.info("The correct answer was: " + correctPlayer);
         nextLevel();
         return;
       }
@@ -72,8 +72,8 @@ function nextLevel() {
   numGuess = 0;
   guessTracker.removeChild(guessTracker.firstChild);
   guessTracker.appendChild(document.createTextNode("Guesses: " + numGuess));
-  correctPlayer = correctPlayers[level-1];
-  playerSet = playerSets[level-1];
+  correctPlayer = correctPlayers[level - 1];
+  playerSet = playerSets[level - 1];
   let player1Img = document.getElementById("player1Image");
   let player2Img = document.getElementById("player2Image");
   let player3Img = document.getElementById("player3Image");
