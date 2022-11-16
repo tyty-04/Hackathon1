@@ -1,5 +1,5 @@
-import { playerSets } from "./LevelsNames.js";
-import { correctPlayers } from "./LevelsNames.js";
+import { playerSets } from "./GuessingGameNames.js";
+import { correctPlayers } from "./GuessingGameNames.js";
 
 let level = 1;
 let levelTracker = document.getElementById("level");
@@ -133,3 +133,4 @@ function removeAllText(element) {
     }
   }
 }
+
