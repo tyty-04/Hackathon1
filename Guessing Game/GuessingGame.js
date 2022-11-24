@@ -55,7 +55,7 @@ if (typeof element2 != "undefined" && element2 != null) {
           }
           skip = prompt("Please input a valid value. (Y or N)");
         }
-        if (skip == "y") {
+        if (skip.toLowerCase() == "y") {
           toastr.info("The correct answer was: " + correctPlayer);
           nextLevel();
           return;
