@@ -10,6 +10,8 @@
 //player4Image: "",
 //Add correct player to correctPlayers array at the same index the object is at in the playerSets array
 
+//testing
+
 export const playerSets = [
   {
     correctPlayer: "Ronaldo",

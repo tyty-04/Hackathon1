@@ -11,6 +11,61 @@ h3 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
 }
+#guesses {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px 0px inset;
+  box-sizing: border-box;
+  color: rgb(57, 115, 157);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 199, 122);
+  border-image: initial;
+  outline: auto;
+  padding: 8px 0.8em;
+  text-decoration: none;
+}
+#Submit {
+  background-color: rgb(247, 153, 12);
+  box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px 0px inset;
+  box-sizing: border-box;
+  color: rgb(57, 115, 157);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(122, 167, 199);
+  border-image: initial;
+  margin: 0px;
+  outline: none;
+  padding: 8px 0.8em;
+  text-decoration: none;
+}
 * {
   margin: 0;
   padding: 0;
