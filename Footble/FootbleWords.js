@@ -8,6 +8,8 @@ export const WORDS = [
   "puyol",
   "pique",
   "pique",
+  "gakpo",
+  "simon",
   "kante",
   "matic",
   "neuer",

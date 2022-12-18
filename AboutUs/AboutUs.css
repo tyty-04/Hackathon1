@@ -2,6 +2,58 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+#level {
+  margin: 20px;
+}
+
+#changeLevel {
+  margin: 10px;
+}
+
+#player1Text {
+  margin: 10px;
+}
+#player2Text {
+  margin: 10px;
+}
+#player3Text {
+  margin: 10px;
+}
+#player4Text {
+  margin: 10px;
+}
+.social > i {
+  margin: 15px;
+}
+
+.navbar {
+  display: block;
+  justify-content: space-between;
+  background-color: #ffffffbc;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+.social {
+  margin: 10px;
+}
+
+.links > li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: auto 10px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
 div.about-section {
   background-color: #ffa520;
 }
@@ -45,7 +97,7 @@ html {
   display: table;
 }
 .title {
-  color: grey;
+  color: rgb(234, 156, 11);
 }
 .button {
   border: none;
@@ -53,7 +105,7 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #fff;
   text-align: center;
   cursor: pointer;
   width: 100%;

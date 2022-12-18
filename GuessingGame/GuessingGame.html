@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JLW93JRR7S"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-JLW93JRR7S");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./GuessingGame.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Toastr -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Guessing Game</title>
+    <link rel="icon" type="image/x-icon" href="../Assets/Logo.jpg" />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        title=""
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KHMHGT7"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="navbar">
+      <img class="logo" src="../Assets/logo.jpg" alt="logo" />
+      <div class="social">
+        <a
+          href="https://twitter.com/htorangeuk?lang=en"
+          target="_blank"
+          class="fa-brands fa-twitter"
+        ></a>
+        <a
+          href="https://www.instagram.com/halftimeorange_/"
+          target="_blank"
+          class="fa-brands fa-instagram"
+        ></a>
+        <a
+          href="https://www.tiktok.com/@halftimeorangeuk"
+          target="_blank"
+          class="fa-brands fa-tiktok"
+        ></a>
+      </div>
+      <h1 class="title">Half-Time Orange Game</h1>
+      <ul class="links">
+        <li><a href="../GuessingGame/LevelSelector.html">Guessing Game</a></li>
+        <li>
+          <a href="../newLevelOfTheWeek/levelOfTheWeek.html"
+            >New Level Of The Week</a
+          >
+        </li>
+        <li><a href="../AboutUs/AboutUs.html">About Us</a></li>
+        <li>
+          <a href="../PrivacyPolicy/privacyPolicy.html">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+    <h3 id="level"></h3>
+    <div id="game">
+      <div>
+        <img id="player1Image" class="playerImage" />
+        <p id="player1Text"></p>
+      </div>
+      <div>
+        <img id="player2Image" class="playerImage" />
+        <p id="player2Text"></p>
+      </div>
+      <div>
+        <img id="player3Image" class="playerImage" />
+        <p id="player3Text"></p>
+      </div>
+      <div>
+        <img id="player4Image" class="playerImage" />
+        <p id="player4Text"></p>
+      </div>
+    </div>
+    <div id="form">
+      <form name="playerGuess">
+        Player: <input type="text" name="nameGuess" required />
+        <input type="submit" id="Submit" value="Submit" />
+      </form>
+    </div>
+    <p id="guesses"></p>
+    <div id="changeLevel">
+      <button id="back">Back</button>
+      <button id="next">Next</button>
+    </div>
+
+    <footer>
+      <h6>
+        In this game, you have to work out which mystery player has played with
+        all four of the players displayed on the screen at some point in their
+        career at club level. Should you guess wrong, clues will be given as to
+        which clubs the players have linked up at.
+      </h6>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="./GuessingGame.js" type="module"></script>
+  </body>
+</html>

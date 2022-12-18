@@ -1,5 +1,6 @@
+import { correctPlayers, playerSets } from "./GuessingGameNames.js";
 let level = 1;
-import { correctPlayers } from "./GuessingGameNames.js";
+
 let levelsDiv = document.getElementById("levels");
 for (let i = 0; i < correctPlayers.length; i++) {
   let anchor = document.createElement("a");
@@ -21,3 +22,19 @@ for (const levelBox of levelBoxes) {
     window.open("./GuessingGame.html", "_self");
   });
 }
+
+function randomlist() {
+  var randomId = Math.floor(Math.random() * playerSets.length);
+  playerSets[randomId];
+  return randomId;
+}
+
+function generateLevel() {
+  var randomLevel = randomlist(level);
+  console.log(randomLevel);
+  sessionStorage.setItem("level", randomLevel);
+  window.open(`./GuessingGame.html/`, "_self");
+}
+
+const randomBtn = document.getElementById("btn");
+randomBtn.addEventListener("click", generateLevel);

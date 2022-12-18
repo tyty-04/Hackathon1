@@ -36,16 +36,23 @@ if (typeof element2 != "undefined" && element2 != null) {
 
   let backButton = document.getElementById("back");
   let nextButton = document.getElementById("next");
-  backButton.addEventListener("click", function () {
+
+  const nextLevelbtn = (e) => {
+    if (!(level > correctPlayers.length)) {
+      nextLevel();
+      console.log(e.target);
+    }
+  };
+
+  const prevLevelbtn = (e) => {
     if (!(level - 1 < 1)) {
       previousLevel();
+      console.log(e.target);
     }
-  });
-  nextButton.addEventListener("click", () => {
-    if (!(level + 1 > correctPlayers.length)) {
-      nextLevel();
-    }
-  });
+  };
+
+  backButton.addEventListener("click", prevLevelbtn);
+  nextButton.addEventListener("click", nextLevelbtn);
 
   function checkGuess(event) {
     event.preventDefault();

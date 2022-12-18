@@ -129,22 +129,41 @@ export const playerSets = [
   },
   {
     correctPlayer: "Higuain",
-    player1: "Hazard",
+    player1: "Eden Hazard",
     player1Image:
       "https://img.a.transfermarkt.technology/portrait/big/50202-1665067742.jpg?lm=1",
     player1Team: "Chelsea",
-    player2: "Ramsey",
+    player2: "Aaron Ramsey",
     player2Image:
       "https://img.a.transfermarkt.technology/portrait/big/50057-1518795716.jpg?lm=1",
     player2Team: "Juventus",
-    player3: "Callejon",
+    player3: "José Callejon",
     player3Image:
       "https://img.a.transfermarkt.technology/portrait/big/61253-1602070711.jpg?lm=1",
     player3Team: "Napoli",
-    player4: "Ronaldo",
+    player4: "Cristiano Ronaldo",
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/8198-1631656078.jpg?lm=1",
     player4Team: "Real Madrid",
+  },
+  {
+    correctPlayer: "Kovacic",
+    player1: "Luka Modrić",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/27992-1661426133.jpg?lm=1",
+    player1Team: "Real Madrid",
+    player2: "Jorginho",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/102017-1599988179.jpg?lm=1",
+    player2Team: "Chelsea",
+    player3: "Kiko Casilla",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/27486-1669365568.jpg?lm=1",
+    player3Team: "Real Madrid",
+    player4: "Pedro",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/65278-1602077251.jpg?lm=1",
+    player4Team: "Chelsea",
   },
   {
     correctPlayer: "Bale",
@@ -242,6 +261,44 @@ export const playerSets = [
     player4Team: "Barcelona",
   },
   {
+    correctPlayer: "Mane",
+    player1: "Kevin Kampl",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/53418-1613997732.jpg?lm=1",
+    player1Team: "RB Salzburg",
+    player2: "Dušan Tadić",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/36139-1661978004.jpg?lm=1",
+    player2Team: "Southampton",
+    player3: "Dejan Lovren",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/37838-1602270734.png?lm=1",
+    player3Team: "Liverpool",
+    player4: "Ryan Gravenberch",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/478573-1661804381.jpg?lm=1",
+    player4Team: "Bayern Munich",
+  },
+  {
+    correctPlayer: "Pjanic",
+    player1: "Mohamed Salah",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/148455-1546611604.jpg?lm=1",
+    player1Team: "Roma",
+    player2: "Hugo Lloris",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/17965-1465213375.jpg?lm=1",
+    player2Team: "Lyon",
+    player3: "Karim Benzema",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/18922-1653042225.jpg?lm=1",
+    player3Team: "Lyon",
+    player4: "Dani Alves",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/15951-1635327520.jpg?lm=1",
+    player4Team: "Barcelona",
+  },
+  {
     correctPlayer: "Eriksen",
     player1: "Luis Suarez",
     player1Image:
@@ -261,6 +318,44 @@ export const playerSets = [
     player4Team: "Manchester United",
   },
   {
+    correctPlayer: "Torres",
+    player1: "Andreas Pereira",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/203394-1659355525.jpg?lm=1",
+    player1Team: "Valencia",
+    player2: "Raheem Sterling",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/134425-1577051521.jpg?lm=1",
+    player2Team: "Manchester City",
+    player3: "Robert Lewandowski",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/38253-1642434304.jpg?lm=1",
+    player3Team: "Barcelona",
+    player4: "Alessandro Florenzi",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/130365-1663574873.jpg?lm=1",
+    player4Team: "Valencia",
+  },
+  {
+    correctPlayer: "Falcao",
+    player1: "David De Gea",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/59377-1667548362.jpg?lm=1",
+    player1Team: "Manchester United",
+    player2: "Youri Tielemans",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/249565-1626861318.jpg?lm=1",
+    player2Team: "Monaco",
+    player3: "Eden Hazard",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/50202-1665067742.jpg?lm=1",
+    player3Team: "Chelsea",
+    player4: "Diego Godin",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/54928-1547721268.jpg?lm=1",
+    player4Team: "Atletico Madrid",
+  },
+  {
     correctPlayer: "Hakimi",
     player1: "Cristiano Ronaldo",
     player1Image:
@@ -273,8 +368,8 @@ export const playerSets = [
     player3: "Jadon Sancho",
     player3Image:
       "https://img.a.transfermarkt.technology/portrait/big/401173-1632686361.jpg?lm=1 ",
-    player3Team: "Real Madrid",
-    player4: "Borussia Dortmund",
+    player3Team: "Borussia Dortmund",
+    player4: "Romelu Lukaku",
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/96341-1661780981.jpg?lm=1",
     player4Team: "Inter Milan",
@@ -337,6 +432,25 @@ export const playerSets = [
     player4Team: "Chelsea",
   },
   {
+    correctPlayer: "Gnabry",
+    player1: "Salomón Rondón",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/80197-1613387915.png?lm=1",
+    player1Team: "West Brom",
+    player2: "Thomas Delaney",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/91849-1668183672.jpg?lm=1",
+    player2Team: "Werder Bremen",
+    player3: "Santi Cazorla",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/15799-1518795463.jpg?lm=1",
+    player3Team: "Arsenal",
+    player4: "Ryan Gravenberch",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/478573-1661804381.jpg?lm=1",
+    player4Team: "Bayern Munich",
+  },
+  {
     correctPlayer: "Cavani",
     player1: "Gabriel Paulista",
     player1Image:
@@ -371,7 +485,7 @@ export const playerSets = [
     player3Team: "Manchester United",
     player4: "Nainggolan",
     player4Image:
-      "https://www.transfermarkt.com/radja-nainggolan/profil/spieler/41982",
+      "https://img.a.transfermarkt.technology/portrait/big/41982-1666894874.jpg?lm=1",
     player4Team: "Inter Milan",
   },
   {
@@ -394,6 +508,25 @@ export const playerSets = [
     player4Team: "Bayern Munich",
   },
   {
+    correctPlayer: "Pepe",
+    player1: "Gareth Bale",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/39381-1658665343.jpg?lm=1",
+    player1Team: "Real Madrid",
+    player2: "Gary Medel",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/60889-1630574292.jpg?lm=1",
+    player2Team: "Besiktas",
+    player3: "José Bosingwa",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/9813-1454172829.jpg?lm=1",
+    player3Team: "Porto",
+    player4: "Arjen Robben",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/4360-1540568808.jpg?lm=1",
+    player4Team: "Real Madrid",
+  },
+  {
     correctPlayer: "Boateng",
     player1: "Ruud van Nistelrooy",
     player1Image:
@@ -413,6 +546,101 @@ export const playerSets = [
     player4Team: "Bayern Munich",
   },
   {
+    correctPlayer: "Rabiot",
+    player1: "Neymar",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/68290-1632687616.jpg?lm=1",
+    player1Team: "PSG",
+    player2: "Wissam Ben Yedder",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/146854-1614089939.jpg?lm=1",
+    player2Team: "Toulouse",
+    player3: "Rodrigo Bentancur",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/354362-1596001806.jpg?lm=1",
+    player3Team: "Juventus",
+    player4: "Lucas Digne",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/126664-1663014267.jpg?lm=1",
+    player4Team: "PSG",
+  },
+  {
+    correctPlayer: "Alderweireld",
+    player1: "Luis Suarez",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/44352-1668156555.jpg?lm=1",
+    player1Team: "Ajax",
+    player2: "Thibaut Courtois",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/108390-1665067957.jpg?lm=1",
+    player2Team: "Atletico Madrid",
+    player3: "Sadio Mané",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/200512-1667830279.jpg?lm=1",
+    player3Team: "Southampton",
+    player4: "Kyle Walker",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/95424-1668090663.jpg?lm=1",
+    player4Team: "Tottenham",
+  },
+  {
+    correctPlayer: "Casemiro",
+    player1: "Donny van de Beek",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/288255-1642174403.jpg?lm=1",
+    player1Team: "Manchester United",
+    player2: "Willian José",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/122155-1665056373.jpg?lm=1",
+    player2Team: "São Paulo",
+    player3: "Ruben Neves",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/225161-1661855284.jpg?lm=1",
+    player3Team: "Porto",
+    player4: "Sergio Reguilón",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/282429-1559807731.png?lm=1",
+    player4Team: "Real Madrid",
+  },
+  {
+    correctPlayer: "Alex Sandro",
+    player1: "Alvaro Morata",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/128223-1644496732.jpg?lm=1",
+    player1Team: "Juventus",
+    player2: "Bruno Martins Indi",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/112052-1629443870.jpg?lm=1",
+    player2Team: "Porto",
+    player3: "Neymar",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/68290-1669394812.jpg?lm=1",
+    player3Team: "Santos",
+    player4: "Dejan Kulusevski",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/431755-1624534430.jpg?lm=1",
+    player4Team: "Juventus",
+  },
+  {
+    correctPlayer: "Meunier",
+    player1: "José Izquierdo",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/147094-1486755753.jpg?lm=1",
+    player1Team: "Club Brugge",
+    player2: "Jadon Sancho",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/401173-1632686361.jpg?lm=1",
+    player2Team: "Borussia Dortmund",
+    player3: "Donyell Malen",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/326029-1632685847.jpg?lm=1",
+    player3Team: "Borussia Dortmund",
+    player4: "Edinson Cavani",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/48280-1619791055.jpg?lm=1",
+    player4Team: "PSG",
+  },
+  {
     correctPlayer: "Fofana",
     player1: "Saliba",
     player1Image:
@@ -430,6 +658,25 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/58864-1665516602.jpg?lm=1",
     player4Team: "Chelsea",
+  },
+  {
+    correctPlayer: "Alonso",
+    player1: "Cristiano Ronaldo",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/8198-1631656078.jpg?lm=1",
+    player1Team: "Real Madrid",
+    player2: "Matías Vecino",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/143812-1596003367.jpg?lm=1",
+    player2Team: "Fiorentina",
+    player3: "Nathan Aké",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/177476-1666733797.jpg?lm=1",
+    player3Team: "Chelsea",
+    player4: "Raphinha",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/411295-1665127690.jpg?lm=1",
+    player4Team: "Barcelona",
   },
   {
     correctPlayer: "Giroud",
@@ -506,6 +753,25 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/header/3455-1579506060.jpg?lm=1",
     player4Team: "PSG",
+  },
+  {
+    correctPlayer: "Payet",
+    player1: "Pierre-Emerick Aubameyang",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/58864-1665516602.jpg?lm=1",
+    player1Team: "Saint-Etienne",
+    player2: "Joe Cole",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/3876-1524234241.jpg?lm=1",
+    player2Team: "Lille",
+    player3: "Victor Moses",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/59866-1632577912.png?lm=1",
+    player3Team: "West Ham",
+    player4: "Kostas Mitroglou",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/34944-1554904582.jpg?lm=1",
+    player4Team: "Marseille",
   },
   {
     correctPlayer: "Isak",
@@ -603,6 +869,44 @@ export const playerSets = [
     player4Team: "Monaco",
   },
   {
+    correctPlayer: "Richarlison",
+    player1: "Abdoulaye Doucouré",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/127187-1448382341.png?lm=1",
+    player1Team: "Watford",
+    player2: "Kurt Zouma",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/157509-1647595996.jpg?lm=1",
+    player2Team: "Everton",
+    player3: "Clément Lenglet",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/182904-1599988301.jpg?lm=1",
+    player3Team: "Tottenham",
+    player4: "James Rodríguez",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/88103-1540568385.jpg?lm=1",
+    player4Team: "Everton",
+  },
+  {
+    correctPlayer: "Lovren",
+    player1: "Phillipe Coutinho",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/80444-1640621762.jpg?lm=1",
+    player1Team: "Liverpool",
+    player2: "Samuel Umtiti",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/126540-1598302607.jpg?lm=1",
+    player2Team: "Lyon",
+    player3: "Luka Modríc",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/27992-1661426133.jpg?lm=1",
+    player3Team: "Dinamo Zagreb",
+    player4: "Malcom",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/323704-1602271074.png?lm=1",
+    player4Team: "Zenit St Petersburg",
+  },
+  {
     correctPlayer: "Ake",
     player1: "Stones",
     player1Image:
@@ -639,6 +943,25 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/418560-1656179352.jpg?lm=1",
     player4Team: "Dortmund",
+  },
+  {
+    correctPlayer: "Milik",
+    player1: "Son Heung-min",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/91845-1669336455.jpg?lm=1",
+    player1Team: "Bayer Leverkusen",
+    player2: "Jaïro Riedewald",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/241481-1614864924.jpg?lm=1",
+    player2Team: "Ajax",
+    player3: "Pepe Reina",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/7825-1448528367.jpg?lm=1",
+    player3Team: "Napoli",
+    player4: "William Saliba",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/495666-1665127395.jpg?lm=1",
+    player4Team: "Marseille",
   },
   {
     correctPlayer: "Cuadrado",
@@ -717,6 +1040,25 @@ export const playerSets = [
     player4Team: "Chelsea",
   },
   {
+    correctPlayer: "Otamendi",
+    player1: "Rodrigo De Paul",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/255901-1623838716.jpg?lm=1",
+    player1Team: "Valencia",
+    player2: "Alex Sandro",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/79960-1661351746.jpg?lm=1",
+    player2Team: "Porto",
+    player3: "Leroy Sané",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/192565-1655064190.jpg?lm=1",
+    player3Team: "Manchester City",
+    player4: "Darwin Nuñez",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/546543-1657810806.jpg?lm=1",
+    player4Team: "Benfica",
+  },
+  {
     correctPlayer: "Tavares",
     player1: "Rúben Dias",
     player1Image:
@@ -736,7 +1078,7 @@ export const playerSets = [
     player4Team: "Marseille",
   },
   {
-    correctPlayer: "Emiliano Martínez",
+    correctPlayer: "Martinez",
     player1: "Matt Doherty",
     player1Image:
       "https://img.a.transfermarkt.technology/portrait/big/171679-1536063364.jpg?lm=1",
@@ -753,6 +1095,25 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/header/203460-1581417066.jpg?lm=1",
     player4Team: "Aston Villa",
+  },
+  {
+    correctPlayer: "Bernardo Silva",
+    player1: "Jonas",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/50143-1474545960.jpg?lm=1",
+    player1Team: "Benfica",
+    player2: "Gabriel Jesus",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/363205-1669711141.jpg?lm=1",
+    player2Team: "Manchester City",
+    player3: "Victor Lindelof",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/184573-1569853055.png?lm=1",
+    player3Team: "Benfica",
+    player4: "João Moutinho",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/29364-1464083394.PNG?lm=1",
+    player4Team: "Monaco",
   },
   {
     correctPlayer: "Adama Traore",
@@ -812,6 +1173,25 @@ export const playerSets = [
     player4Team: "Porto",
   },
   {
+    correctPlayer: "Matuidi",
+    player1: "Kevin Mirallas",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/33639-1605139873.jpeg?lm=1",
+    player1Team: "Saint-Etienne",
+    player2: "Alphonse Areola",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/120629-1663243036.jpg?lm=1",
+    player2Team: "PSG",
+    player3: "Merih Demiral",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/340879-1655706148.jpg?lm=1",
+    player3Team: "Juventus",
+    player4: "Kieran Gibbs",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/44792-1647705303.jpg?lm=1",
+    player4Team: "Inter Miami",
+  },
+  {
     correctPlayer: "Emerson Royal",
     player1: "Ndombele",
     player1Image:
@@ -829,6 +1209,44 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/102017-1599988179.jpg?lm=1",
     player4Team: "Barcelona",
+  },
+  {
+    correctPlayer: "Ben Yedder",
+    player1: "Clément Lenglet",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/48280-1619791055.jpg?lm=1",
+    player1Team: "Sevilla",
+    player2: "Issa Diop",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/272622-1660565295.jpg?lm=1",
+    player2Team: "Toulouse",
+    player3: "Takumi Minamino",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/165793-1565700962.jpg?lm=1",
+    player3Team: "Monaco",
+    player4: "Simon Kjær",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/48859-1661514194.jpg?lm=1",
+    player4Team: "Sevilla",
+  },
+  {
+    correctPlayer: "Andersen",
+    player1: "Nathaniel Clyne",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/85177-1459244656.jpg?lm=1",
+    player1Team: "Crystal Palace",
+    player2: "Lucas Torreira",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/318077-1660050345.jpg?lm=1",
+    player2Team: "Sampdoria",
+    player3: "Ruben Loftus-Cheek",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/202886-1518793502.jpg?lm=1",
+    player3Team: "Fulham",
+    player4: "Memphis Depay",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/167850-1668167349.jpg?lm=1",
+    player4Team: "Lyon",
   },
   {
     correctPlayer: "Danilo",
@@ -867,6 +1285,44 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/4357-1471339801.jpg?lm=1",
     player4Team: "Ajax",
+  },
+  {
+    correctPlayer: "Cheryshev",
+    player1: "Gabriel Paulista",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/149498-1475828105.jpg?lm=1",
+    player1Team: "Valencia",
+    player2: "Aaron Connolly",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/434207-1614851750.jpg?lm=1",
+    player2Team: "Venezia",
+    player3: "Alvaro Morata",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/128223-1644496732.jpg?lm=1",
+    player3Team: "Real Madrid",
+    player4: "Ivan Rakitic",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/32467-1568021662.jpg?lm=1",
+    player4Team: "Sevilla",
+  },
+  {
+    correctPlayer: "Aurier",
+    player1: "Thiago Silva",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/header/29241-1661856081.jpg?lm=1",
+    player1Team: "PSG",
+    player2: "Renan Lodi",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/header/476352-1554733508.jpg?lm=1",
+    player2Team: "Atletico Madrid",
+    player3: "Cristian Eriksen",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/header/69633-1668184209.jpg?lm=1",
+    player3Team: "Tottenham",
+    player4: "Adrien Rabiot",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/header/182913-1568120243.jpg?lm=1",
+    player4Team: "Toulouse",
   },
   {
     correctPlayer: "Arnautovic",
@@ -964,6 +1420,25 @@ export const playerSets = [
     player4Team: "Liverpool",
   },
   {
+    correctPlayer: "Wanyama",
+    player1: "Bojan",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/44675-1583613429.jpg?lm=1",
+    player1Team: "CF Montreal",
+    player2: "Kyle Walker",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/95424-1668090663.jpg?lm=1",
+    player2Team: "Tottenham",
+    player3: "Sadio Mané",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/200512-1667830279.jpg?lm=1",
+    player3Team: "Southampton",
+    player4: "Virgil van Dijk",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/139208-1620651710.jpg?lm=1",
+    player4Team: "Southampton",
+  },
+  {
     correctPlayer: "Trippier",
     player1: "Ings",
     player1Image:
@@ -1040,6 +1515,25 @@ export const playerSets = [
     player4Team: "Alavés",
   },
   {
+    correctPlayer: "Targett",
+    player1: "José Fonte",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/33829-1666690457.jpg?lm=1",
+    player1Team: "Southampton",
+    player2: "Pepe Reina",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/7825-1448528367.jpg?lm=1",
+    player2Team: "Aston Villa",
+    player3: "Loris Karius",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/85864-1615890800.jpg?lm=1",
+    player3Team: "Newcastle",
+    player4: "Jack Grealish",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/203460-1581417066.jpg?lm=1",
+    player4Team: "Aston Villa",
+  },
+  {
     correctPlayer: "Sarr",
     player1: "Benoît Assou-Ekotto",
     player1Image:
@@ -1057,6 +1551,25 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/73250-1447255212.jpg?lm=1",
     player4Team: "Watford",
+  },
+  {
+    correctPlayer: "Maupay",
+    player1: "David Ospina",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/73396-1496216427.jpg?lm=1",
+    player1Team: "Nice",
+    player2: "Martín Montoya",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/68645-1664974468.jpg?lm=1",
+    player2Team: "Brighton",
+    player3: "Ollie Watkins",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/324358-1538466436.jpg?lm=1",
+    player3Team: "Brentford",
+    player4: "Conor Coady",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/128901-1668090438.jpg?lm=1",
+    player4Team: "Everton",
   },
   {
     correctPlayer: "El Ghazi",
@@ -1097,6 +1610,44 @@ export const playerSets = [
     player4Team: "Chelsea",
   },
   {
+    correctPlayer: "Saiss",
+    player1: "Diogo Jota",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/340950-1633340107.jpg?lm=1",
+    player1Team: "Wolverhampton",
+    player2: "Riyad Mahrez",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/171424-1461578220.jpg?lm=1 ",
+    player2Team: "Le Havre",
+    player3: "Adama Traore",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/204103-1570000875.jpg?lm=1 ",
+    player3Team: "Wolverhampton",
+    player4: "Dele Alli",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/207929-1665670825.png?lm=1 ",
+    player4Team: "Besiktas",
+  },
+  {
+    correctPlayer: "Denis Suarez",
+    player1: "Alphonse Areola",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/120629-1663243036.jpg?lm=1",
+    player1Team: "Villareal",
+    player2: "Luis Suarez",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/44352-1668156555.jpg?lm=1",
+    player2Team: "Barcelona",
+    player3: "Bernd Leno",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/72476-1642711733.jpg?lm=1",
+    player3Team: "Arsenal",
+    player4: "Stanislav Lobotka",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/192735-1661509021.jpg?lm=1",
+    player4Team: "Celta Vigo",
+  },
+  {
     correctPlayer: "Musa",
     player1: "Igor Akinfeev",
     player1Image:
@@ -1116,6 +1667,44 @@ export const playerSets = [
     player4Team: "CSKA Moscow",
   },
   {
+    correctPlayer: "Cambiasso",
+    player1: "Iker Casillas",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/3979-1542105569.png?lm=1",
+    player1Team: "Real Madrid",
+    player2: "Mario Balotelli",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/45146-1663830086.jpg?lm=1",
+    player2Team: "Inter Milan",
+    player3: "Riyad Mahrez",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/171424-1461578220.jpg?lm=1",
+    player3Team: "Leicester",
+    player4: "Luka Milivojević",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/74300-1479730704.jpg?lm=1",
+    player4Team: "Olympiakos",
+  },
+  {
+    correctPlayer: "Amad",
+    player1: "John Lundstram",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/156941-1600681782.jpg?lm=1",
+    player1Team: "Rangers",
+    player2: "Ruslan Malinovskyi",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/207877-1663583019.jpg?lm=1",
+    player2Team: "Atalanta",
+    player3: "Jack Clarke",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/559794-1551183854.jpg?lm=1",
+    player3Team: "Sunderland",
+    player4: "Edinson Cavani",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/48280-1619791055.jpg?lm=1",
+    player4Team: "Manchester United",
+  },
+  {
     correctPlayer: "Modeste",
     player1: "Alexander Pato",
     player1Image:
@@ -1133,6 +1722,25 @@ export const playerSets = [
     player4Image:
       "https://img.a.transfermarkt.technology/portrait/big/84938-1657109580.jpg?lm=1",
     player4Team: "FC Köln",
+  },
+  {
+    correctPlayer: "Boufal",
+    player1: "Stanislav Lobotka",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/192735-1661509021.jpg?lm=1",
+    player1Team: "Celta Vigo",
+    player2: "Yan Valery",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/406008-1544621080.jpg?lm=1",
+    player2Team: "Angers",
+    player3: "Mike Maignan",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/182906-1598303138.jpg?lm=1",
+    player3Team: "Lille",
+    player4: "Ryan Bertrand",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/40611-1518794490.jpg?lm=1",
+    player4Team: "Southampton",
   },
   {
     correctPlayer: "Mooy",
@@ -1172,6 +1780,82 @@ export const playerSets = [
       "https://img.a.transfermarkt.technology/portrait/big/43907-1465213831.jpg?lm=1",
     player4Team: "Tigres",
   },
+  {
+    correctPlayer: "Babel",
+    player1: "Gregory van der Wiel",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/45548-1520787963.jpg?lm=1",
+    player1Team: "Ajax",
+    player2: "Talisca",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/258626-1563350063.jpg?lm=1",
+    player2Team: "Besiktas",
+    player3: "Javier Mascherano",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/19981-1465280515.jpg?lm=1",
+    player3Team: "Liverpool",
+    player4: "Andre Schürrle",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/58205-1471509802.jpg?lm=1",
+    player4Team: "Fulham",
+  },
+  {
+    correctPlayer: "Fosu-Mensah",
+    player1: "Ruben Loftus-Cheek",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/202886-1518793502.jpg?lm=1",
+    player1Team: "Crystal Palace",
+    player2: "Andre Schürrle",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/58205-1471509802.jpg?lm=1",
+    player2Team: "Fulham",
+    player3: "Memphis Depay",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/167850-1668167349.jpg?lm=1",
+    player3Team: "Manchester United",
+    player4: "Ryan Sessegnon",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/392775-1554559145.jpg?lm=1",
+    player4Team: "Fulham",
+  },
+  {
+    correctPlayer: "Estupiñan",
+    player1: "Iddrisu Baba",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/442805-1568028870.jpg?lm=1",
+    player1Team: "Mallorca",
+    player2: "Joël Veltman",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/111195-1524562477.jpg?lm=1",
+    player2Team: "Brighton",
+    player3: "Juan Foyth",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/480763-1662668281.jpg?lm=1",
+    player3Team: "Villareal",
+    player4: "Serge Aurier",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/127032-1479730792.jpg?lm=1",
+    player4Team: "Villareal",
+  },
+  {
+    correctPlayer: "Carson",
+    player1: "Mason Mount",
+    player1Image:
+      "https://img.a.transfermarkt.technology/portrait/big/346483-1642175298.jpg?lm=1",
+    player1Team: "Derby",
+    player2: "Xabi Alonso",
+    player2Image:
+      "https://img.a.transfermarkt.technology/portrait/big/7476-1471439383.JPG?lm=1",
+    player2Team: "Liverpool",
+    player3: "Burak Yilmaz",
+    player3Image:
+      "https://img.a.transfermarkt.technology/portrait/big/34987-1622122750.jpg?lm=1",
+    player3Team: "Bursaspor",
+    player4: "Carlos Vela",
+    player4Image:
+      "https://img.a.transfermarkt.technology/portrait/big/35773-1646496838.jpg?lm=1",
+    player4Team: "West Brom",
+  },
 ];
 
 export const correctPlayers = [
@@ -1182,58 +1866,94 @@ export const correctPlayers = [
   "Ramos",
   "Di Maria",
   "Higuain",
+  "Kovacic",
   "Bale",
   "Lewandowski",
   "Eden Hazard",
   "De Bruyne",
   "Thiago",
+  "Mane",
+  "Pjanic",
   "Eriksen",
+  "Torres",
+  "Falcao",
   "Hakimi",
   "Coman",
   "Lukaku",
   "Salah",
+  "Gnabry",
   "Cavani",
   "Perisic",
   "Alaba",
+  "Pepe",
   "Boateng",
+  "Rabiot",
+  "Alderweireld",
+  "Casemiro",
+  "Alex Sandro",
+  "Meunier",
   "Fofana",
+  "Alonso",
   "Giroud",
   "Raphinha",
   "Paredes",
   "Digne",
+  "Payet",
   "Isak",
   "Osimhen",
   "Welbeck",
   "Cucurella",
   "Tielemans",
+  "Richarlison",
+  "Lovren",
   "Ake",
   "Can",
+  "Milik",
   "Cuadrado",
   "Dzeko",
   "Wijnaldum",
   "Matic",
+  "Otamendi",
   "Tavares",
-  "Emiliano Martínez",
+  "Martinez",
+  "Bernardo Silva",
   "Adama Traore",
   "Hamsik",
   "Andre Silva",
+  "Matuidi",
   "Emerson Royal",
+  "Ben Yedder",
+  "Andersen",
   "Danilo",
   "Dolberg",
+  "Cheryshev",
+  "Aurier",
   "Arnautovic",
   "Mandanda",
   "Foster",
   "Maitland-Niles",
   "Minamino",
+  "Wanyama",
   "Trippier",
   "Jovetic",
   "Yedlin",
   "Sarr",
+  "Maupay",
   "Lucas Perez",
+  "Targett",
   "El Ghazi",
   "Gallagher",
+  "Saiss",
+  "Denis Suarez",
   "Musa",
+  "Cambiasso",
+  "Amad",
   "Modeste",
+  "Boufal",
   "Mooy",
   "Enner Valencia",
+  "Babel",
+  "Fosu-Mensah",
+  "Estupiñan",
+  "Carson",
 ];
